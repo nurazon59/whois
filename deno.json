@@ -1,0 +1,9 @@
+{
+  "name": "@nurazon59/whois",
+  "version": "0.1.0",
+  "license": "MIT",
+  "exports": "./index.ts",
+  "tasks": {
+    "start": "deno run --allow-env index.ts"
+  }
+}
