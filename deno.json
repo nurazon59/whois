@@ -4,6 +4,6 @@
   "license": "MIT",
   "exports": "./index.ts",
   "tasks": {
-    "start": "deno run --allow-env index.ts"
+    "start": "deno run index.ts"
   }
 }
