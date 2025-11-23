@@ -1,0 +1,31 @@
+{
+  "name": "@nurazon59/whois",
+  "version": "1.0.0",
+  "description": "Personal card - Who is nurazon59?",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "nurazon59": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "bun build index.ts --outdir dist --target node --format esm",
+    "prepublishOnly": "bun run build"
+  },
+  "keywords": [
+    "whois",
+    "card",
+    "npx"
+  ],
+  "author": "nurazon59",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^22.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
