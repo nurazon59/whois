@@ -1,12 +1,10 @@
 {
-  "name": "@nurazon59/whois",
-  "version": "0.2.0",
+  "name": "nurazon59",
+  "version": "1.0.0",
   "description": "Personal card - Who is nurazon59?",
   "type": "module",
   "main": "dist/index.js",
-  "bin": {
-    "nurazon59-whois": "dist/index.js"
-  },
+  "bin": "dist/index.js",
   "files": [
     "dist"
   ],
